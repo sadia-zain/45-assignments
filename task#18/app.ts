@@ -1,0 +1,11 @@
+let favoritePlaces: string[] = ["Pakistan", "Turkey", "Palestine","SaudiArabia" ];
+console.log("original order:", favoritePlaces);
+console.log("Alphabatical order:", [favoritePlaces].sort());
+console.log("original order:", favoritePlaces);
+console.log("reverse order:", [favoritePlaces].sort().reverse());
+console.log("original order:", favoritePlaces);
+favoritePlaces.reverse();console.log("Reverse order:", favoritePlaces);
+favoritePlaces.reverse();console.log("Original order:", favoritePlaces);
+favoritePlaces.reverse();console.log("Reversed order:", favoritePlaces);
+favoritePlaces.sort();console.log("Alphabatic order:", favoritePlaces);
+favoritePlaces.reverse();console.log("Reversed alphabatic order:", favoritePlaces);
